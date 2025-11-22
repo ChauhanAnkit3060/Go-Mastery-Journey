@@ -1,9 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
 	fmt.Println("Hello Git...")
+	fmt.Printf("Time now : %v",time.Now())
 }
 
 //git config --global user.name "ChauhanAnkit3060"
