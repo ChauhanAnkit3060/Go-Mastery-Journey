@@ -4,12 +4,13 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"runtime"
 	"strconv"
 	"time"
 )
 
 func main() {
-	fmt.Println("Hello Git...")
+	fmt.Println("Hello Git...",runtime.GOOS)
 	fmt.Printf("Time now : %v",time.Now())
 
 	var dia_txt string	
