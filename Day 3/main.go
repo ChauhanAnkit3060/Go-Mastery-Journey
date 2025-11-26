@@ -19,7 +19,9 @@ func CheckPasswordStrength(pass string) (isValid bool, err error) {
 }
 
 func main() {
-	
+	// Code to see who defer, panic and recover works
+	Initiator()
+	return
 	fmt.Printf("Enter password : ")
 	reader := bufio.NewReader(os.Stdin)
 	pass, err := reader.ReadString('\n')
