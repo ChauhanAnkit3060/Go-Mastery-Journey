@@ -40,8 +40,9 @@ func promptAll(b Bill){
 		fmt.Println("Item added to bill")
 		promptAll(b)
 	case "s" :
-		fmt.Print("Saving bill....\n\n")
-		b.PrintBill()
+		fmt.Print("Saving bill....\n")
+		b.SaveBill()
+		fmt.Print("Bill Saved Successfully !!\n")
 	case "t" :
 		t,_ := UserInput("Enter tip amount : ",reader)
 		tip,err := strconv.ParseFloat(t,64)
