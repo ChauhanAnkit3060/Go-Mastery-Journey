@@ -1,0 +1,10 @@
+Bill Name :  Diya's Bday Party
+Generated on : 29 Nov 25 18:40:43
+Cake : 1299.00
+Chicken Biryani : 1199.00
+Cold drinks : 200.00
+Kabab Platter : 1199.00
+CGST (2.5%) : 97.43
+SGST (2.5%) : 97.43
+Tip amount : 110.00
+Your total is : 4201.85

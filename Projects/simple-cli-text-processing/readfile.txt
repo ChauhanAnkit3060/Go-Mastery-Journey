@@ -1,8 +1,0 @@
-Phase 1 Project Update (120+ mins)
-Project Title: Simple CLI Text Processor (Finalizing the design)
-Goal: Make the CLI tool robust by handling files and flags.
-Today's Task:
-Input Handling: Implement the use of the flag package (or the simpler os.Args) to accept two command-line arguments: an input file path and an output file path.
-File Processing: Use the os and io packages to read the content of the input file.
-Apply the processing logic (like uppercasing or reversing, using the strings package) to the file content.
-Write the final processed content to the specified output file path.
