@@ -1,0 +1,6 @@
+Task:
+Create a file named sunday_refactor_exercise.go in your Daily-Exercises folder.
+Define a function LoadConfig(path string) (string, error) that simulates loading a configuration file.
+Inside LoadConfig, if the path is empty, return "" and an error created using errors.New("config path cannot be empty").
+Crucially: In your main function, call LoadConfig and check the error. If an error occurs, print the error to os.Stderr and call os.Exit(1) (exit with a non-zero status). 
+If successful, print the result to os.Stdout.
