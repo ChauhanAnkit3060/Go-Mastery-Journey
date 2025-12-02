@@ -50,7 +50,7 @@ func (todo *Todos) delete(ind int) error{
 	return nil
 }
 
-func (todo *Todos) toggle(ind int) error{
+func (todo *Todos) Toggle(ind int) error{
 	if err := todo.validateIndex(ind);err!=nil{
 		fmt.Println(err)
 		return  err
@@ -68,7 +68,7 @@ func (todo *Todos) toggle(ind int) error{
 	return nil
 }
 
-func (todo *Todos) edit(ind int, title string) error{
+func (todo *Todos) Edit(ind int, title string) error{
 	if err := todo.validateIndex(ind);err!=nil{
 		return  err
 	}
